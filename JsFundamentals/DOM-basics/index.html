@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Basics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="heading">Hello, World!</h1>
+    <p id="subtext">This is a paragraph</p>
+
+    <button id="btn1">Change Heading</button>
+    <button id="btn2">Change Color</button>
+    <button id="btn3">Hide/Show Text</button>
+    <!-- Add this below your 3 buttons -->
+<br><br>
+<input type="text" id="nameInput" placeholder="Enter your name" />
+<button id="greetBtn">Greet Me!</button>
+<p id="greetMessage"></p>
+
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
